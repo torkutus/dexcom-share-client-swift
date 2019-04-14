@@ -29,8 +29,8 @@ extension ShareService: ServiceAuthenticationUI {
                     (title: LocalizedString("US", comment: "U.S. share server option title"),
                      value: KnownShareServers.US.rawValue),
                     (title: LocalizedString("Outside US", comment: "Outside US share server option title"),
-                     value: KnownShareServers.NON_US.rawValue)
-                    (title: LocalizedString("Nightscout", comment: "Custom Nightscout share server option title"),
+                     value: KnownShareServers.NON_US.rawValue),
+                    (title: LocalizedString("Custom", comment: "Custom Nightscout share server option title"),
                      value: KnownShareServers.CUSTOM.rawValue)
 
                 ]
