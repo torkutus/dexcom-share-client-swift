@@ -32,7 +32,7 @@ public class ShareService: ServiceAuthentication {
          */
 
         
-        let customServer = "https://cyoungshareserver.herokuapp.com"
+        let customServer = "https://REPLACE_ME"
         let customServerTitle = "Custom"        
 
         if let username = username, let password = password, let url = url {
